@@ -25,21 +25,13 @@ body {
   }
 }
 
-/*#app {*/
-/*  font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
-/*  -webkit-font-smoothing: antialiased;*/
-/*  -moz-osx-font-smoothing: grayscale;*/
-/*  text-align: center;*/
-/*  color: #2c3e50;*/
-/*}*/
-
 #nav {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   a {
     text-decoration: none;
-    color: #606060;
+    color: #616161;
     font-weight: normal;
     font-size: 1rem;
   }
