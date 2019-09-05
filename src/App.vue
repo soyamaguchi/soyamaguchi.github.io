@@ -1,28 +1,53 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <div><router-link to="/" id="top">soyamaguchi.me</router-link></div>
+      <nav>
+        <router-link to="/about">About</router-link>
+        <router-link to="/works">Works</router-link>
+      </nav>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+  width: 830px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
+@media screen and (max-width: 830px) {
+  body {
+    width: 90vw;
+  }
+}
+
+/*#app {*/
+/*  font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
+/*  -webkit-font-smoothing: antialiased;*/
+/*  -moz-osx-font-smoothing: grayscale;*/
+/*  text-align: center;*/
+/*  color: #2c3e50;*/
+/*}*/
+
 #nav {
-  padding: 30px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
   a {
-    font-weight: bold;
-    color: #2c3e50;
+    text-decoration: none;
+    color: #606060;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  nav a {
+    margin-left: 1rem;
+    color: #adadad;
     &.router-link-exact-active {
-      color: #42b983;
+      color: #8f8f8f;
     }
   }
 }
