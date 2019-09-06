@@ -5,7 +5,7 @@
       <span class="dark">Soya</span>
       Yamaguchi
     </div>
-    <Introduction msg="Welcome to Your Vue.js App"/>
+    <Introduction />
   </div>
 </template>
 
