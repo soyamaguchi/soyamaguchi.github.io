@@ -1,16 +1,16 @@
 <template>
-    <div class="works">
-        <Achievement />
-    </div>
+  <div class="works">
+    <Achievement />
+  </div>
 </template>
 
 <script>
 import Achievement from '@/components/Achievement.vue'
 
 export default {
-  name: "Works.vue",
+  name: 'works',
   components: {
-      Achievement
+    Achievement
   }
 }
 </script>

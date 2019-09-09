@@ -9,9 +9,9 @@
 </template>
 
 <script>
-  export default {
-    name: "Achievement.vue"
-  }
+export default {
+  name: 'Achievement'
+}
 </script>
 
 <style lang="scss" scoped>
