@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'Achievement'
+  name: 'Achievement',
 }
 </script>
 
@@ -27,7 +27,7 @@ $font-fam: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 .achievement {
   h1 {
-    margin: 0 0 2rem;
+    margin: 0 0 3rem;
     font-family: $font-fam;
     color: #808080;
   }
