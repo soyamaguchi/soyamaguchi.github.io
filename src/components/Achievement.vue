@@ -49,6 +49,5 @@ $font-fam: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       margin: 0.5rem 0;
     }
   }
-
 }
 </style>

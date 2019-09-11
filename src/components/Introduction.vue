@@ -27,6 +27,9 @@ export default {
   a {
     color: #474747;
   }
+  p {
+    line-height: 1.7
+  }
 }
 
 h2 {
