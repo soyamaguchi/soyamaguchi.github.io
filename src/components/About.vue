@@ -30,8 +30,8 @@ $font-fam: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 2rem;
     .about__me__img {
         display: inline-block;
-        width: 270px;
-        height: 270px;
+        width: 210px;
+        height: 210px;
         border-radius: 50%;
         background-image: url("../assets/profile.jpg");
         background-position: center 80%;
