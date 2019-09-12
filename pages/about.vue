@@ -1,14 +1,13 @@
 <template>
   <div class="about">
-    <About />
+    <about />
   </div>
 </template>
 
 <script>
-import About from '@/components/About.vue'
+import About from '~/components/About.vue'
 
 export default {
-  name: 'about',
   components: {
     About
   }
@@ -17,6 +16,6 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 </style>

@@ -1,24 +1,28 @@
 <template>
   <div class="achievement">
     <h1>Products</h1>
-    <div class="products-info">
-      <span class="date">2019-09</span>
+    <div class="achievement__products-info">
+      <span class="achievement__products-info__date">2019-09</span>
       <h2>PortfolioSite - soyamaguchi.me</h2>
       <p>個人開発</p>
-      <a href="https://soyamaguchi.me" target="_blank" rel="noopener">soyamaguchi.me</a>
+      <a href="https://soyamaguchi.me" target="_blank" rel="noopener">
+        soyamaguchi.me
+      </a>
     </div>
-    <div class="products-info">
-      <span class="date">2019-08</span>
+    <div class="achievement__products-info">
+      <span class="achievement__products-info__date">2019-08</span>
       <h2>知っておいて損はないお得な自治体情報 - Advice2.com</h2>
       <p>個人開発</p>
-      <a href="https://advice2.com" target="_blank" rel="noopener">advice2.com</a>
+      <a href="https://advice2.com" target="_blank" rel="noopener">
+        advice2.com
+      </a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Achievement',
+  name: 'Achievement'
 }
 </script>
 
@@ -31,9 +35,9 @@ $font-fam: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-family: $font-fam;
     color: #808080;
   }
-  .products-info {
+  &__products-info {
     margin-bottom: 2rem;
-    .date {
+    &__date {
       color: #c2c2c2;
     }
     h2 {

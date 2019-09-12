@@ -1,25 +1,25 @@
 <template>
-  <div id="app">
+  <div>
     <div id="nav">
-      <div><router-link to="/" id="top">soyamaguchi.me</router-link></div>
+      <div><n-link id="top" to="/">soyamaguchi.me</n-link></div>
       <nav>
-        <router-link to="/about">About</router-link>
-        <router-link to="/works">Works</router-link>
+        <n-link to="/about">About</n-link>
+        <n-link to="/works">Works</n-link>
       </nav>
     </div>
-    <router-view/>
+    <nuxt />
   </div>
 </template>
 
 <style lang="scss">
 body {
-  width: 830px;
+  width: 810px;
   height: 100vh;
   margin: 0 auto;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 810px) {
   body {
     width: 90vw;
   }
@@ -36,9 +36,9 @@ body {
     font-size: 1rem;
   }
   nav a {
-    margin-left: 1rem;
+    margin-left: 0.8rem;
     color: #adadad;
-    &.router-link-exact-active {
+    &.nuxt-link-exact-active {
       color: #8f8f8f;
     }
   }

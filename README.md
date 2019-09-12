@@ -1,34 +1,22 @@
-# soyamaguchi.github.io
+# soyamaguchi.me
 
-## Project setup
-```
-yarn install
-```
+> My portfolio
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## Build Setup
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+``` bash
+# install dependencies
+$ yarn install
 
-### Run your tests
-```
-yarn run test
-```
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-### Lints and fixes files
-```
-yarn run lint
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
 ```
 
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

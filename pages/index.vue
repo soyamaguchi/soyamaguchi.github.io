@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <span class="job">Software Engineer</span>
-    <div class="name">
-      <span class="dark">Soya</span>
+    <span class="home__job">Software Engineer</span>
+    <div class="home__name">
+      <span class="home__name--dark">Soya</span>
       Yamaguchi
     </div>
     <Introduction />
@@ -11,10 +11,9 @@
 
 <script>
 // @ is an alias to /src
-import Introduction from '@/components/Introduction.vue'
+import Introduction from '~/components/Introduction.vue'
 
 export default {
-  name: 'home',
   components: {
     Introduction
   }
@@ -24,11 +23,11 @@ export default {
 <style lang="scss" scoped>
 .home {
   margin-top: 5rem;
-  .job {
+  &__job {
     color: #c2c2c2;
   }
-  .name {
-    .dark {
+  &__name {
+    &--dark {
       color: #616161;
     }
     margin-top: 0.5rem;

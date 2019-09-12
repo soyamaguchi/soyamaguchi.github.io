@@ -1,14 +1,13 @@
 <template>
   <div class="works">
-    <Achievement />
+    <achievement />
   </div>
 </template>
 
 <script>
-import Achievement from '@/components/Achievement.vue'
+import Achievement from '~/components/Achievement.vue'
 
 export default {
-  name: 'works',
   components: {
     Achievement
   }
@@ -17,6 +16,6 @@ export default {
 
 <style lang="scss" scoped>
 .works {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 </style>
