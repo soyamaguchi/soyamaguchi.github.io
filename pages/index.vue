@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  margin-top: 5rem;
+  margin: 5rem 0;
   &__job {
     color: #c2c2c2;
   }

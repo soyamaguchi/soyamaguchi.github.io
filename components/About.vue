@@ -1,15 +1,29 @@
 <template>
   <div class="about__me">
     <h1>About me</h1>
-    <div class="about__me__info">
-      <div class="about__me__info__img"></div>
-      <div class="about__me__info__name">
+    <section class="about__me__info">
+      <figure class="about__me__info__img"></figure>
+      <span class="about__me__info__name">
         <h2>Soya Yamaguchi</h2>
+      </span>
+      <div class="about__me__info__feature">
+        <p>
+          三重県出身大阪府在住、1993年生まれ。<br />
+          仕事、個人など問わずコードを書いており、フルスタックに幅広くやります。<br />
+          DDDやClean Architectureに興味があります。
+        </p>
       </div>
-      <!-- <h2>PortfolioSite - soyamaguchi.me</h2>
-      <p>個人開発</p>
-      <a href="https://soyamaguchi.me" target="_blank" rel="noopener">soyamaguchi.me</a> -->
-    </div>
+      <div class="about__me__info__skills">
+        <span>Frontend</span>
+        <p>HTML / CSS / JavaScript / Vue.js / Nuxt.js</p>
+        <span>Backend</span>
+        <p>
+          Java / Struts2 / Spring / VB.NET / Ruby / Rails / Oracle / PostgreSQL
+        </p>
+        <span>Other</span>
+        <p>Docker / AWS</p>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -23,10 +37,10 @@ export default {
 $font-fam: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 .about__me {
-  font-family: $font-fam;
   h1 {
-    margin: 0 0 3rem;
     color: #808080;
+    font-family: $font-fam;
+    margin: 0 0 3rem;
   }
   &__info {
     &__img {
@@ -35,23 +49,29 @@ $font-fam: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       border-radius: 50%;
       background-image: url('../assets/profile.jpg');
       background-position: center 80%;
-      margin-bottom: 1rem;
+      margin: 0;
     }
     &__name {
+      font-family: $font-fam;
       color: #616161;
     }
-    // h2 {
-    //   margin: 0;
-    //   font-family: $font-fam;
-    //   color: #616161;
-    // }
-    // p,
-    // a {
-    //   color: #474747;
-    // }
-    // p {
-    //   margin: 0.5rem 0;
-    // }
+    &__feature {
+      color: #474747;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    &__skills {
+      span {
+        font-family: $font-fam;
+        color: #616161;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      p {
+        color: #474747;
+        margin: 0 0.5rem 1rem;
+      }
+    }
   }
 }
 </style>
