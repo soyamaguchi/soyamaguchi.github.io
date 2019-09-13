@@ -14,7 +14,6 @@
 <style lang="scss">
 body {
   width: 810px;
-  height: 100vh;
   margin: 0 auto;
   font-family: 'Noto Sans JP', sans-serif;
 }
