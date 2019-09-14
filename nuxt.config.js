@@ -18,7 +18,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://soyamaguchi.me' },
       { hid: 'og:title', property: 'og:title', content: 'soyamaguchi.me' },
-      { hid: 'og:image', property: 'og:image', content: 'https://soyamaguchi.me/portfolio-ogpimg.png' }
+      { hid: 'og:image', property: 'og:image', content: 'https://soyamaguchi.me/portfolio-ogpimg2.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
