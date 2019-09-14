@@ -17,8 +17,8 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: 'soyamaguchi.me' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://soyamaguchi.me' },
-      { hid: 'og:title', property: 'og:title', content: 'soyamaguchi.me' },
-      { hid: 'og:image', property: 'og:image', content: 'https://soyamaguchi.me/portfolio-ogp.png' }
+      { hid: 'og:title', property: 'og:title', content: 'soyamaguchi.me' }
+      // { hid: 'og:image', property: 'og:image', content: 'https://soyamaguchi.me/portfolio-ogp.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
