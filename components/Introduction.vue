@@ -21,6 +21,15 @@
           Twitter
         </a>
       </li>
+      <li>
+        <a
+          href="https://qiita.com/_soyamaguchi_"
+          target="_blank"
+          rel="noopener"
+        >
+          Qiita
+        </a>
+      </li>
     </ul>
   </div>
 </template>
