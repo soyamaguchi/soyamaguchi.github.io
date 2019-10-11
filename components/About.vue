@@ -10,7 +10,8 @@
         <p>
           三重県出身大阪府在住、1993年生まれ。<br />
           仕事、個人など問わずコードを書いており、フルスタックに幅広くやります。<br />
-          DDDやClean Architectureに興味があります。
+          DDDやClean Architectureなどのアーキテクチャに興味があるお年頃。<br />
+          でもやはり探究心をもって専門性を磨いていきたい。
         </p>
       </div>
       <div class="about__me__info__skills">
